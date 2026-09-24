@@ -193,7 +193,7 @@ export default function App() {
       </section>
 
       {/* Live Retained Search Mandates */}
-      <section id="mandates" className="py-20 px-6 max-w-7xl mx-auto">
+      <section id="mandates" className="py-20 px-6 max-w-7xl mx-auto scroll-mt-20">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>
             <span className="text-xs font-mono uppercase tracking-widest text-emerald-400">ACTIVE SEARCH PIPELINE</span>
@@ -270,7 +270,7 @@ export default function App() {
       </section>
 
       {/* Retained Search Architecture / Methodology */}
-      <section id="methodology" className="py-20 px-6 bg-[#0E0E10] border-y border-zinc-800">
+      <section id="methodology" className="py-20 px-6 bg-[#0E0E10] border-y border-zinc-800 scroll-mt-20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-xs font-mono uppercase tracking-widest text-emerald-400">SEARCH ARCHITECTURE</span>
@@ -328,8 +328,67 @@ export default function App() {
         </div>
       </section>
 
+      {/* Talent Vault / Candidate Dossier Desk */}
+      <section id="dossier" className="py-20 px-6 max-w-7xl mx-auto scroll-mt-20">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
+          <div>
+            <span className="text-xs font-mono uppercase tracking-widest text-emerald-400">VETTED TALENT NETWORK</span>
+            <h3 className="text-3xl font-extrabold text-white mt-1">Executive Candidate Dossier Vault</h3>
+            <p className="text-sm text-zinc-400 mt-2 max-w-xl">
+              Pre-calibrated C-Suite and Board-ready executives subjected to forensic 360° background vetting, compensation benchmarks, and psychometric profiles.
+            </p>
+          </div>
+          <div className="mt-4 md:mt-0 flex gap-2">
+            <button
+              onClick={() => setIsAdminOpen(true)}
+              className="px-4 py-2 bg-emerald-500/10 border border-emerald-500/30 hover:bg-emerald-500/20 text-emerald-400 text-xs font-mono rounded-lg transition"
+            >
+              ACCESS TALENT REPOSITORY [ search2026 ]
+            </button>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="p-6 rounded-2xl bg-[#121214] border border-zinc-800 hover:border-emerald-500/40 transition">
+            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">CFO POOL // NASDAQ / NYSE</span>
+            <h4 className="text-lg font-bold text-white mt-3">Public Enterprise CFOs</h4>
+            <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+              Vetted financial chiefs with dual capital markets experience, $500M+ debt syndication history, and Sarbanes-Oxley audit leadership.
+            </p>
+            <div className="mt-4 pt-4 border-t border-zinc-800/80 text-[11px] text-zinc-500 flex justify-between">
+              <span>Average Comp: $650k Base + Equity</span>
+              <span className="text-emerald-400">18 Candidates Active</span>
+            </div>
+          </div>
+
+          <div className="p-6 rounded-2xl bg-[#121214] border border-zinc-800 hover:border-emerald-500/40 transition">
+            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">CTO / CPO // AI INFRASTRUCTURE</span>
+            <h4 className="text-lg font-bold text-white mt-3">Engineering & Product Scale VPs</h4>
+            <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+              Technical founders and SVPs who have scaled engineering teams from 50 to 800+ across high-throughput distributed systems and generative AI.
+            </p>
+            <div className="mt-4 pt-4 border-t border-zinc-800/80 text-[11px] text-zinc-500 flex justify-between">
+              <span>Average Comp: $700k Base + Carry</span>
+              <span className="text-emerald-400">24 Candidates Active</span>
+            </div>
+          </div>
+
+          <div className="p-6 rounded-2xl bg-[#121214] border border-zinc-800 hover:border-emerald-500/40 transition">
+            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">BOARD GOVERNANCE</span>
+            <h4 className="text-lg font-bold text-white mt-3">Independent Audit & Risk Chairs</h4>
+            <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+              Former Fortune 200 C-Suite leaders qualified as SEC Financial Experts under Sarbanes-Oxley Section 407 for independent board committee chairs.
+            </p>
+            <div className="mt-4 pt-4 border-t border-zinc-800/80 text-[11px] text-zinc-500 flex justify-between">
+              <span>Annual Retainer: $175k - $225k</span>
+              <span className="text-emerald-400">12 Candidates Active</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Retained Mandate Initiation Form */}
-      <section id="initiate" className="py-20 px-6 max-w-4xl mx-auto">
+      <section id="initiate" className="py-20 px-6 max-w-4xl mx-auto scroll-mt-20">
         <div className="bg-[#121214] border border-zinc-800 rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
           <div className="max-w-2xl">
             <span className="text-xs font-mono uppercase tracking-widest text-emerald-400">COMMISSION A SEARCH</span>
