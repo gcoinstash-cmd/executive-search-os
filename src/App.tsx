@@ -159,7 +159,7 @@ export default function App() {
                 <span>PLACEMENTS</span>
               </div>
               <p className="text-2xl font-bold text-white mt-1">420+ Leaders</p>
-              <p className="text-[11px] text-zinc-500 mt-0.5">Fortune 500 & PE Tier-1</p>
+              <p className="text-xs font-semibold text-zinc-300 mt-0.5">Fortune 500 & PE Tier-1</p>
             </div>
 
             <div className="p-4 rounded-xl bg-[#121214] border border-zinc-800">
@@ -168,7 +168,7 @@ export default function App() {
                 <span>TIME TO SHORTLIST</span>
               </div>
               <p className="text-2xl font-bold text-white mt-1">21 Days</p>
-              <p className="text-[11px] text-emerald-400 mt-0.5">Guaranteed Retained SLA</p>
+              <p className="text-xs font-semibold text-emerald-400 mt-0.5">Guaranteed Retained SLA</p>
             </div>
 
             <div className="p-4 rounded-xl bg-[#121214] border border-zinc-800">
@@ -177,7 +177,7 @@ export default function App() {
                 <span>TENURE RATIO</span>
               </div>
               <p className="text-2xl font-bold text-white mt-1">98.2%</p>
-              <p className="text-[11px] text-zinc-500 mt-0.5">36-Month C-Suite Retention</p>
+              <p className="text-xs font-semibold text-zinc-300 mt-0.5">36-Month C-Suite Retention</p>
             </div>
 
             <div className="p-4 rounded-xl bg-[#121214] border border-zinc-800">
@@ -186,7 +186,7 @@ export default function App() {
                 <span>TOTAL COMP PLACED</span>
               </div>
               <p className="text-2xl font-bold text-white mt-1">$2.4 Billion</p>
-              <p className="text-[11px] text-zinc-500 mt-0.5">Base + LTIP + Equity Pools</p>
+              <p className="text-xs font-semibold text-zinc-300 mt-0.5">Base + LTIP + Equity Pools</p>
             </div>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function App() {
           <div>
             <span className="text-xs font-mono uppercase tracking-widest text-emerald-400">ACTIVE SEARCH PIPELINE</span>
             <h3 className="text-3xl font-extrabold text-white mt-1">Current Retained Engagements</h3>
-            <p className="text-sm text-zinc-400 mt-2 max-w-xl">
+            <p className="text-base sm:text-lg text-zinc-200 leading-relaxed mt-2 max-w-xl">
               Strictly confidential searches conducted under non-disclosure governance. Qualified candidates may submit dossiers for partner review.
             </p>
           </div>
@@ -223,31 +223,31 @@ export default function App() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#121214] via-[#121214]/50 to-transparent"></div>
-                <div className="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-black/80 border border-zinc-700 text-[10px] font-mono font-bold text-emerald-400">
+                <div className="absolute top-3 right-3 px-2.5 py-1 rounded-md bg-black/80 border border-zinc-700 text-xs font-semibold tracking-wider font-mono font-bold text-emerald-400">
                   {mandate.status}
                 </div>
               </div>
 
               <div className="p-6 flex-1 flex flex-col justify-between">
                 <div>
-                  <span className="text-[10px] font-mono font-semibold tracking-wider text-zinc-400 uppercase">{mandate.sector}</span>
+                  <span className="text-xs font-semibold tracking-wider font-mono font-semibold tracking-wider text-zinc-400 uppercase">{mandate.sector}</span>
                   <h4 className="text-xl font-bold text-white mt-1 group-hover:text-emerald-300 transition-colors">{mandate.role}</h4>
-                  <p className="text-xs text-zinc-400 mt-2 leading-relaxed">{mandate.scope}</p>
+                  <p className="text-base text-zinc-200 leading-relaxed mt-2 leading-relaxed">{mandate.scope}</p>
 
                   <div className="mt-4 pt-4 border-t border-zinc-800/80 space-y-2 text-xs">
                     <div className="flex justify-between">
-                      <span className="text-zinc-500">Compensation:</span>
+                      <span className="text-zinc-300">Compensation:</span>
                       <span className="font-semibold text-emerald-400">{mandate.compBand}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-zinc-500">Timeline:</span>
+                      <span className="text-zinc-300">Timeline:</span>
                       <span className="font-semibold text-zinc-300">{mandate.timeline}</span>
                     </div>
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-1.5">
                     {mandate.tags.map((tag, idx) => (
-                      <span key={idx} className="px-2 py-0.5 rounded bg-zinc-800/80 text-[10px] text-zinc-400 border border-zinc-700/50">
+                      <span key={idx} className="px-2 py-0.5 rounded bg-zinc-800/80 text-xs font-semibold tracking-wider text-zinc-400 border border-zinc-700/50">
                         {tag}
                       </span>
                     ))}
@@ -275,7 +275,7 @@ export default function App() {
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-xs font-mono uppercase tracking-widest text-emerald-400">SEARCH ARCHITECTURE</span>
             <h3 className="text-3xl font-extrabold text-white mt-1">The 4-Stage Executive Placement Engine</h3>
-            <p className="text-sm text-zinc-400 mt-2">
+            <p className="text-base sm:text-lg text-zinc-200 leading-relaxed mt-2">
               Our retained protocol replaces fragmented recruitment with an institutional, data-driven algorithm built for board-level execution.
             </p>
           </div>
@@ -285,44 +285,44 @@ export default function App() {
               <div>
                 <span className="text-2xl font-mono font-bold text-emerald-400">01</span>
                 <h4 className="text-lg font-bold text-white mt-3">Mandate Calibration</h4>
-                <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+                <p className="text-base text-zinc-200 leading-relaxed mt-2 leading-relaxed">
                   Deep-dive board interviews, corporate governance benchmarking, compensation equity structure, and anti-poach non-compete perimeter definitions.
                 </p>
               </div>
-              <span className="mt-6 text-[10px] font-mono text-zinc-500">TIMELINE: DAYS 1 - 5</span>
+              <span className="mt-6 text-xs font-semibold tracking-wider font-mono text-zinc-300">TIMELINE: DAYS 1 - 5</span>
             </div>
 
             <div className="p-6 rounded-2xl bg-[#121214] border border-zinc-800 flex flex-col justify-between">
               <div>
                 <span className="text-2xl font-mono font-bold text-emerald-400">02</span>
                 <h4 className="text-lg font-bold text-white mt-3">Discrete Market Mapping</h4>
-                <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+                <p className="text-base text-zinc-200 leading-relaxed mt-2 leading-relaxed">
                   Confidential talent scraping across 100% of qualified target entities. Partner-to-partner outreach ensuring zero reputational market leaks.
                 </p>
               </div>
-              <span className="mt-6 text-[10px] font-mono text-zinc-500">TIMELINE: DAYS 6 - 15</span>
+              <span className="mt-6 text-xs font-semibold tracking-wider font-mono text-zinc-300">TIMELINE: DAYS 6 - 15</span>
             </div>
 
             <div className="p-6 rounded-2xl bg-[#121214] border border-zinc-800 flex flex-col justify-between">
               <div>
                 <span className="text-2xl font-mono font-bold text-emerald-400">03</span>
                 <h4 className="text-lg font-bold text-white mt-3">360° Forensic Diligence</h4>
-                <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+                <p className="text-base text-zinc-200 leading-relaxed mt-2 leading-relaxed">
                   Proprietary leadership scorecards, verified backchannel references, forensic SEC/FINRA background scrutiny, and executive psychometrics.
                 </p>
               </div>
-              <span className="mt-6 text-[10px] font-mono text-zinc-500">TIMELINE: DAYS 16 - 21</span>
+              <span className="mt-6 text-xs font-semibold tracking-wider font-mono text-zinc-300">TIMELINE: DAYS 16 - 21</span>
             </div>
 
             <div className="p-6 rounded-2xl bg-[#121214] border border-zinc-800 flex flex-col justify-between">
               <div>
                 <span className="text-2xl font-mono font-bold text-emerald-400">04</span>
                 <h4 className="text-lg font-bold text-white mt-3">Offer Close & Onboarding</h4>
-                <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+                <p className="text-base text-zinc-200 leading-relaxed mt-2 leading-relaxed">
                   Complex compensation negotiations (cliff schedules, double-trigger severance, tax-efficient rollover equity) and 100-day board integration.
                 </p>
               </div>
-              <span className="mt-6 text-[10px] font-mono text-emerald-400">PLACED WITH 36-MO GUARANTEE</span>
+              <span className="mt-6 text-xs font-semibold tracking-wider font-mono text-emerald-400">PLACED WITH 36-MO GUARANTEE</span>
             </div>
           </div>
         </div>
@@ -334,7 +334,7 @@ export default function App() {
           <div>
             <span className="text-xs font-mono uppercase tracking-widest text-emerald-400">VETTED TALENT NETWORK</span>
             <h3 className="text-3xl font-extrabold text-white mt-1">Executive Candidate Dossier Vault</h3>
-            <p className="text-sm text-zinc-400 mt-2 max-w-xl">
+            <p className="text-base sm:text-lg text-zinc-200 leading-relaxed mt-2 max-w-xl">
               Pre-calibrated C-Suite and Board-ready executives subjected to forensic 360° background vetting, compensation benchmarks, and psychometric profiles.
             </p>
           </div>
@@ -350,36 +350,36 @@ export default function App() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="p-6 rounded-2xl bg-[#121214] border border-zinc-800 hover:border-emerald-500/40 transition">
-            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">CFO POOL // NASDAQ / NYSE</span>
+            <span className="text-xs font-semibold tracking-wider font-mono px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">CFO POOL // NASDAQ / NYSE</span>
             <h4 className="text-lg font-bold text-white mt-3">Public Enterprise CFOs</h4>
-            <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+            <p className="text-base text-zinc-200 leading-relaxed mt-2 leading-relaxed">
               Vetted financial chiefs with dual capital markets experience, $500M+ debt syndication history, and Sarbanes-Oxley audit leadership.
             </p>
-            <div className="mt-4 pt-4 border-t border-zinc-800/80 text-[11px] text-zinc-500 flex justify-between">
+            <div className="mt-4 pt-4 border-t border-zinc-800/80 text-xs font-semibold text-zinc-300 flex justify-between">
               <span>Average Comp: $650k Base + Equity</span>
               <span className="text-emerald-400">18 Candidates Active</span>
             </div>
           </div>
 
           <div className="p-6 rounded-2xl bg-[#121214] border border-zinc-800 hover:border-emerald-500/40 transition">
-            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">CTO / CPO // AI INFRASTRUCTURE</span>
+            <span className="text-xs font-semibold tracking-wider font-mono px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20">CTO / CPO // AI INFRASTRUCTURE</span>
             <h4 className="text-lg font-bold text-white mt-3">Engineering & Product Scale VPs</h4>
-            <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+            <p className="text-base text-zinc-200 leading-relaxed mt-2 leading-relaxed">
               Technical founders and SVPs who have scaled engineering teams from 50 to 800+ across high-throughput distributed systems and generative AI.
             </p>
-            <div className="mt-4 pt-4 border-t border-zinc-800/80 text-[11px] text-zinc-500 flex justify-between">
+            <div className="mt-4 pt-4 border-t border-zinc-800/80 text-xs font-semibold text-zinc-300 flex justify-between">
               <span>Average Comp: $700k Base + Carry</span>
               <span className="text-emerald-400">24 Candidates Active</span>
             </div>
           </div>
 
           <div className="p-6 rounded-2xl bg-[#121214] border border-zinc-800 hover:border-emerald-500/40 transition">
-            <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">BOARD GOVERNANCE</span>
+            <span className="text-xs font-semibold tracking-wider font-mono px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20">BOARD GOVERNANCE</span>
             <h4 className="text-lg font-bold text-white mt-3">Independent Audit & Risk Chairs</h4>
-            <p className="text-xs text-zinc-400 mt-2 leading-relaxed">
+            <p className="text-base text-zinc-200 leading-relaxed mt-2 leading-relaxed">
               Former Fortune 200 C-Suite leaders qualified as SEC Financial Experts under Sarbanes-Oxley Section 407 for independent board committee chairs.
             </p>
-            <div className="mt-4 pt-4 border-t border-zinc-800/80 text-[11px] text-zinc-500 flex justify-between">
+            <div className="mt-4 pt-4 border-t border-zinc-800/80 text-xs font-semibold text-zinc-300 flex justify-between">
               <span>Annual Retainer: $175k - $225k</span>
               <span className="text-emerald-400">12 Candidates Active</span>
             </div>
@@ -393,7 +393,7 @@ export default function App() {
           <div className="max-w-2xl">
             <span className="text-xs font-mono uppercase tracking-widest text-emerald-400">COMMISSION A SEARCH</span>
             <h3 className="text-3xl font-extrabold text-white mt-1">Initiate a Retained Executive Mandate</h3>
-            <p className="text-sm text-zinc-400 mt-2">
+            <p className="text-base sm:text-lg text-zinc-200 leading-relaxed mt-2">
               Confidential consultation with a senior managing partner. Strict NDA executed before mandate disclosure.
             </p>
           </div>
@@ -401,7 +401,7 @@ export default function App() {
           <form onSubmit={handleSubmitEngagement} className="mt-8 space-y-6">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-mono uppercase text-zinc-400 mb-2">Company / Sponsor Entity</label>
+                <label className="block text-sm font-semibold font-mono uppercase text-zinc-400 mb-2">Company / Sponsor Entity</label>
                 <input
                   type="text"
                   required
@@ -413,7 +413,7 @@ export default function App() {
               </div>
 
               <div>
-                <label className="block text-xs font-mono uppercase text-zinc-400 mb-2">Target Executive Role</label>
+                <label className="block text-sm font-semibold font-mono uppercase text-zinc-400 mb-2">Target Executive Role</label>
                 <input
                   type="text"
                   required
@@ -427,7 +427,7 @@ export default function App() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className="block text-xs font-mono uppercase text-zinc-400 mb-2">Partner / Executive Email</label>
+                <label className="block text-sm font-semibold font-mono uppercase text-zinc-400 mb-2">Partner / Executive Email</label>
                 <input
                   type="email"
                   required
@@ -439,7 +439,7 @@ export default function App() {
               </div>
 
               <div>
-                <label className="block text-xs font-mono uppercase text-zinc-400 mb-2">Firm Scale / Revenue Tier</label>
+                <label className="block text-sm font-semibold font-mono uppercase text-zinc-400 mb-2">Firm Scale / Revenue Tier</label>
                 <select
                   value={aumTier}
                   onChange={(e) => setAumTier(e.target.value)}
@@ -479,24 +479,24 @@ export default function App() {
           <div className="bg-[#121214] border border-emerald-500/30 rounded-2xl p-6 sm:p-8 max-w-lg w-full text-zinc-100 relative">
             <h4 className="text-xl font-bold text-white">{selectedMandate.role}</h4>
             <p className="text-xs text-emerald-400 font-mono mt-1">{selectedMandate.sector}</p>
-            <p className="text-xs text-zinc-400 mt-4 leading-relaxed">{selectedMandate.scope}</p>
+            <p className="text-base text-zinc-200 leading-relaxed mt-4 leading-relaxed">{selectedMandate.scope}</p>
 
             <div className="my-6 p-4 rounded-xl bg-zinc-900 border border-zinc-800 space-y-2 text-xs">
               <div className="flex justify-between">
-                <span className="text-zinc-500">Target Compensation:</span>
+                <span className="text-zinc-300">Target Compensation:</span>
                 <span className="text-emerald-400 font-bold">{selectedMandate.compBand}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-zinc-500">Diligence Window:</span>
+                <span className="text-zinc-300">Diligence Window:</span>
                 <span className="text-zinc-300 font-semibold">{selectedMandate.timeline}</span>
               </div>
               <div className="flex justify-between">
-                <span className="text-zinc-500">Status:</span>
+                <span className="text-zinc-300">Status:</span>
                 <span className="text-amber-400 font-semibold">{selectedMandate.status}</span>
               </div>
             </div>
 
-            <p className="text-xs text-zinc-500 mb-6">
+            <p className="text-xs text-zinc-300 mb-6">
               Complete candidate profile and board presentation deck requires an executed Sovereign Non-Disclosure Agreement.
             </p>
 
@@ -528,7 +528,7 @@ export default function App() {
       />
 
       {/* Footer */}
-      <footer className="py-12 px-6 border-t border-zinc-800/80 bg-[#0A0A0B] text-zinc-500 text-xs">
+      <footer className="py-12 px-6 border-t border-zinc-800/80 bg-[#0A0A0B] text-zinc-300 text-xs">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center text-black font-black">
@@ -536,7 +536,7 @@ export default function App() {
             </div>
             <div>
               <p className="font-bold text-white tracking-wide">EXECUTIVE SEARCH OS</p>
-              <p className="text-[11px] text-zinc-500">Retained C-Suite & Board Advisory Engine</p>
+              <p className="text-xs font-semibold text-zinc-300">Retained C-Suite & Board Advisory Engine</p>
             </div>
           </div>
 

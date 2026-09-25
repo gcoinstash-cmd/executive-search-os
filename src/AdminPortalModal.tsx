@@ -80,7 +80,7 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({ isOpen, onCl
               </div>
             </form>
 
-            <div className="mt-6 pt-6 border-t border-zinc-800 text-xs text-zinc-500 flex items-center justify-center gap-2">
+            <div className="mt-6 pt-6 border-t border-zinc-800 text-xs text-zinc-300 flex items-center justify-center gap-2">
               <Shield className="w-3.5 h-3.5 text-emerald-400" />
               <span>SOC2 Type II • Strict Confidentiality Protocol • Zero Leak Gate</span>
             </div>
@@ -125,19 +125,19 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({ isOpen, onCl
               <div className="py-6 space-y-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                   <div className="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800">
-                    <p className="text-xs text-zinc-400">Active Board / C-Suite Mandates</p>
+                    <p className="text-base text-zinc-200 leading-relaxed">Active Board / C-Suite Mandates</p>
                     <p className="text-2xl font-bold text-emerald-400 mt-1">14 Engagements</p>
-                    <p className="text-[11px] text-zinc-500 mt-1">Average Target Comp: $680k Base + Equity</p>
+                    <p className="text-xs font-semibold text-zinc-300 mt-1">Average Target Comp: $680k Base + Equity</p>
                   </div>
                   <div className="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800">
-                    <p className="text-xs text-zinc-400">Vetted Shortlist Rate</p>
+                    <p className="text-base text-zinc-200 leading-relaxed">Vetted Shortlist Rate</p>
                     <p className="text-2xl font-bold text-white mt-1">21.4 Days Avg</p>
-                    <p className="text-[11px] text-emerald-400 mt-1">100% Retained Exclusivity</p>
+                    <p className="text-xs font-semibold text-emerald-400 mt-1">100% Retained Exclusivity</p>
                   </div>
                   <div className="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800">
-                    <p className="text-xs text-zinc-400">Total Contracted Search Retainers</p>
+                    <p className="text-base text-zinc-200 leading-relaxed">Total Contracted Search Retainers</p>
                     <p className="text-2xl font-bold text-white mt-1">$4,860,000</p>
-                    <p className="text-[11px] text-zinc-500 mt-1">One-Third Rule Placement Tranches</p>
+                    <p className="text-xs font-semibold text-zinc-300 mt-1">One-Third Rule Placement Tranches</p>
                   </div>
                 </div>
 
@@ -145,25 +145,25 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({ isOpen, onCl
                 <div className="divide-y divide-zinc-800 border border-zinc-800 rounded-xl overflow-hidden">
                   <div className="p-4 bg-zinc-900/40 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                     <div>
-                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">CONFIDENTIAL // PE-BACKED SAAS</span>
+                      <span className="text-xs font-semibold tracking-wider font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">CONFIDENTIAL // PE-BACKED SAAS</span>
                       <h5 className="font-semibold text-white mt-1">Chief Executive Officer (CEO) — $180M ARR Scale</h5>
-                      <p className="text-xs text-zinc-400">Target Comp: $750k Base + 3.5% Equity Pool • Shortlist: 4 Candidates Selected</p>
+                      <p className="text-base text-zinc-200 leading-relaxed">Target Comp: $750k Base + 3.5% Equity Pool • Shortlist: 4 Candidates Selected</p>
                     </div>
                     <span className="text-xs font-semibold px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Final Offer Stage</span>
                   </div>
                   <div className="p-4 bg-zinc-900/40 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                     <div>
-                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/20 text-blue-400 border border-blue-500/30">FORTUNE 250 HEALTHCARE</span>
+                      <span className="text-xs font-semibold tracking-wider font-mono px-2 py-0.5 rounded bg-blue-500/20 text-blue-400 border border-blue-500/30">FORTUNE 250 HEALTHCARE</span>
                       <h5 className="font-semibold text-white mt-1">Chief Information Security Officer (CISO)</h5>
-                      <p className="text-xs text-zinc-400">Target Comp: $550k Base + LTIP • Shortlist: 6 Finalists In Background Vetting</p>
+                      <p className="text-base text-zinc-200 leading-relaxed">Target Comp: $550k Base + LTIP • Shortlist: 6 Finalists In Background Vetting</p>
                     </div>
                     <span className="text-xs font-semibold px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">Board Presentation</span>
                   </div>
                   <div className="p-4 bg-zinc-900/40 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
                     <div>
-                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30">GLOBAL ASSET MANAGER ($12B AUM)</span>
+                      <span className="text-xs font-semibold tracking-wider font-mono px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30">GLOBAL ASSET MANAGER ($12B AUM)</span>
                       <h5 className="font-semibold text-white mt-1">Independent Audit Committee Chair (Board of Directors)</h5>
-                      <p className="text-xs text-zinc-400">Target Retainer: $185k Board Stipend + RSUs • Shortlist: 3 Qualified SEC Experts</p>
+                      <p className="text-base text-zinc-200 leading-relaxed">Target Retainer: $185k Board Stipend + RSUs • Shortlist: 3 Qualified SEC Experts</p>
                     </div>
                     <span className="text-xs font-semibold px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20">Governance Review</span>
                   </div>
@@ -181,18 +181,18 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({ isOpen, onCl
                   <div className="p-4 rounded-xl bg-zinc-900/40 border border-zinc-800 flex justify-between items-center">
                     <div>
                       <h5 className="font-semibold text-white">Candidate ID: EX-8924 (Former Public Co. CFO)</h5>
-                      <p className="text-xs text-zinc-400">Led 2 IPOs ($2.4B & $890M) • Big 4 Audit Background • Enterprise SaaS & FinTech</p>
-                      <p className="text-[11px] text-zinc-500 mt-1">Location: New York / Remote • Notice: Immediate • Non-Compete Cleared</p>
+                      <p className="text-base text-zinc-200 leading-relaxed">Led 2 IPOs ($2.4B & $890M) • Big 4 Audit Background • Enterprise SaaS & FinTech</p>
+                      <p className="text-xs font-semibold text-zinc-300 mt-1">Location: New York / Remote • Notice: Immediate • Non-Compete Cleared</p>
                     </div>
-                    <button className="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-xs font-medium text-emerald-300 rounded-lg border border-zinc-700">View Dossier</button>
+                    <button className="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-base font-semibold min-h-[44px] font-medium text-emerald-300 rounded-lg border border-zinc-700">View Dossier</button>
                   </div>
                   <div className="p-4 rounded-xl bg-zinc-900/40 border border-zinc-800 flex justify-between items-center">
                     <div>
                       <h5 className="font-semibold text-white">Candidate ID: EX-4190 (SVP Global Engineering)</h5>
-                      <p className="text-xs text-zinc-400">Scaled Engineering org from 40 to 650 engineers • AI / Distributed Systems specialist</p>
-                      <p className="text-[11px] text-zinc-500 mt-1">Location: San Francisco, CA • Security Clearance: TS/SCI Eligible</p>
+                      <p className="text-base text-zinc-200 leading-relaxed">Scaled Engineering org from 40 to 650 engineers • AI / Distributed Systems specialist</p>
+                      <p className="text-xs font-semibold text-zinc-300 mt-1">Location: San Francisco, CA • Security Clearance: TS/SCI Eligible</p>
                     </div>
-                    <button className="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-xs font-medium text-emerald-300 rounded-lg border border-zinc-700">View Dossier</button>
+                    <button className="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-base font-semibold min-h-[44px] font-medium text-emerald-300 rounded-lg border border-zinc-700">View Dossier</button>
                   </div>
                 </div>
               </div>
@@ -219,7 +219,7 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({ isOpen, onCl
             )}
 
             <div className="mt-6 pt-4 border-t border-zinc-800 flex justify-between items-center">
-              <span className="text-xs text-zinc-500">Autonomous Retained Search Engine • Supabase RLS Protected</span>
+              <span className="text-xs text-zinc-300">Autonomous Retained Search Engine • Supabase RLS Protected</span>
               <button
                 onClick={() => setIsAuthenticated(false)}
                 className="text-xs text-rose-400 hover:underline"
